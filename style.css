@@ -1,0 +1,109 @@
+.resimSlide {
+    height: 600px;
+}
+
+body{
+    padding-top: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.Features {
+    background-color: #f2f2f2;
+}
+.ayrac {
+    border: none;
+    border-top: 3px solid #343a40; 
+    max-width: 350px;
+    margin: 25px auto;
+}
+
+.iwhite {
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid white;
+    background-color: white;
+}
+
+.igrey {
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.TeamCard>img:hover {
+    opacity: 0.8;
+}
+
+.Gallery {
+    background-color: #f2f2f2;
+}
+
+.figure:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: white;
+  }
+  footer h3 {
+    margin: 0;
+  }
+  #contact h3 span {
+      color: #343a40;
+  }
+  footer h3,
+  footer h4 {
+    color: #343a40;
+    text-align: center;
+  }
+  footer .row {
+    margin-bottom: 6rem;
+  }
+  .footer-about {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+.social-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .social-links a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: rgb(9, 0, 0);
+  }
+  .social-links a i{
+    transition: 0.5s all;
+  }
+  
+  .social-links a:hover > i{
+    transform: scale(1.6) rotate(360deg);
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  #scroll-top {
+    position: fixed;
+    display: none;
+    place-items: center;
+    height: 5rem;
+    width: 5rem;
+    right: 3rem;
+    bottom: 3rem;
+    background-color: #ff044f;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 3.2rem;
+  }
